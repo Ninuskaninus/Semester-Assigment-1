@@ -16,6 +16,8 @@
     --font-medium: 2em;
     --font-large: 4.6em;
 
+    --border: solid 2px var(--white);
+
 }
 
 body{
@@ -115,7 +117,7 @@ p{
     text-align: center;
 }
 
-#black{
+.black{
     color: var(--black);
 }
 
@@ -124,23 +126,29 @@ p{
 }
 #yellow{
     background-color: var(--yellow);
+    border: var(--border)
 }
 #pink{
     background-color: var(--pink);
+    border: var(--border)
 }
 #blue{
     background-color: var(--lightblue);
+    border: var(--border)
 }
 #orange{
     background-color: var(--orange);
+    border: var(--border)
 }
 
 #purple{
     background-color: var(--purple);
+    border: var(--border)
 }
 
 #green{
     background-color: var(--darkgreen);
+    border: var(--border)
 }
 
 .bold{
