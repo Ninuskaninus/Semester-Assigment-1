@@ -174,9 +174,13 @@ p{
     min-width: 150px;
 }
 
-#last{
+.last{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: absolute;
-    bottom: -180px;
+    bottom: 100px;
+    
     
 }
 
@@ -873,7 +877,7 @@ textarea::placeholder{
 
 @media screen and (max-width: 1020px) {
 
-   #last{
+   .last{
     display: flex;
     position: inherit;
     width: 150px;
