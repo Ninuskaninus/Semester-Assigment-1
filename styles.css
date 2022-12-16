@@ -116,10 +116,7 @@ p{
 }
 
 #black{
-    color: var(--black)
-
-
-
+    color: var(--black);
 }
 
 #white{
