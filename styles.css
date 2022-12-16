@@ -70,7 +70,7 @@ svg{
     fill: var(--white);
 }
 
-#icon-black{
+.icon-black{
     fill: var(--black);
 }
 
