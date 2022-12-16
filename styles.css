@@ -222,6 +222,7 @@ p{
 
 .image4{
     max-width: 100%;
+    min-height: 100%;
     vertical-align: middle;
     display: inline-block;
     border-radius: 20px;
@@ -368,10 +369,6 @@ header{
   #hamburgerToggle input:checked +#menu{
     opacity: 100;
   }
-
-
-
-
 
 nav{
     position: relative;
@@ -639,6 +636,13 @@ footer svg{
     background-color: var(--white);
 }
 
+.card-bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
 .card-top{
     display: flex;
     width: 100%;
@@ -878,6 +882,11 @@ textarea::placeholder{
         margin-bottom: 50px;
         height: auto;
     }
+    .category-item-grid{
+        margin-top: 100px;
+        column-gap: 20px;
+        row-gap: 80px;
+    }
 
     .gallery-wrapper{
         grid-template-columns: auto auto;
@@ -970,6 +979,10 @@ textarea::placeholder{
     .visit-item{
         width: 70%;
         justify-self: center;
+    }
+
+    .category-item-grid{
+        row-gap: 10px;
     }
 
     
