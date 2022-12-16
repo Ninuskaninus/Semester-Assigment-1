@@ -115,6 +115,13 @@ p{
     text-align: center;
 }
 
+#black{
+    color: var(--black)
+
+
+
+}
+
 #white{
     color: var(--white);
 }
