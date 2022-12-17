@@ -69,7 +69,7 @@ footer{
     margin-left: 50px;
     justify-content: flex-start;
     gap: 16px 20px;
-    grid-template-columns: 1fr 0.25fr 1fr;
+    grid-template-columns: auto 1fr auto;
 }
 
 footer svg{
@@ -262,6 +262,13 @@ h5{
     font-size: 1.3em;
 }
 
+.visit-heading{
+    line-height: 1em;
+    margin-top: 10px;
+    margin-bottom: 0;
+    text-align: left;
+}
+
 .hero-heading{
     margin-top: -20px;
 }
@@ -359,6 +366,8 @@ svg{
     border: 2px solid;
     border-color: var(--yellow);
     color: var(--yellow);
+    justify-self: center;
+    align-self: center;
 }
 
 #yellow-border:hover{
@@ -814,7 +823,7 @@ svg{
 
 .visit-item{
     display: flex;
-    height: 100%;
+    height: auto;
     width: 100%;
     padding: 17px;
     justify-content: center;
@@ -826,8 +835,9 @@ svg{
     display: grid;
     width: 100%;
     margin-top: 25px;
+    margin-bottom: 50px;
     grid-auto-columns: 1fr;
-    gap: 2px;
+    row-gap: 2px;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto auto auto auto auto auto auto;
 }
@@ -839,7 +849,7 @@ svg{
     width: 90%;
     flex-direction: column;
     justify-content: flex-start;
-    align-items: center;
+    align-items: left;
     border-radius: 20px;
     background-color: var(--white);
 }
@@ -858,6 +868,7 @@ form{
     display: flex;
     flex-direction: column;
     width: 100%;
+    height: 50%;
     
 }
 
@@ -870,7 +881,7 @@ label{
 
 input{
     width: 80%;
-    height: 30px;
+    min-height: 30px;
     border-radius: 20px;
     border: none;
     outline: none;
@@ -883,7 +894,7 @@ input{
 textarea{
     max-width: 80%;
     min-width: 80%;
-    max-height: 200px;
+    max-height: 80%;
     min-height: 30px;
     border-radius: 20px;
     border: none;
